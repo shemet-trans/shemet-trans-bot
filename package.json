@@ -2,10 +2,10 @@
   "name": "shemettransbot",
   "version": "1.0.0",
   "description": "",
-  "main": "main.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx ts-node main.ts"
+    "start": "node main.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
